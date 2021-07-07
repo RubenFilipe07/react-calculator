@@ -2,7 +2,7 @@
 
 # Demo
 
-<a href="https://rubenfilipe07.github.io/react-calculator/">  <img src="https://user-images.githubusercontent.com/53026536/124715262-2c73fb00-ded9-11eb-83a2-733eec1a3dd7.png"></a>
+<a href="https://rubenfilipe07.github.io/react-calculator/">  <img src="https://user-images.githubusercontent.com/53026536/124840695-f0d14380-df61-11eb-9130-5662373b7c32.gif"></a>
 
 <span>View in: </span> <a href="https://rubenfilipe07.github.io/react-calculator/">https://rubenfilipe07.github.io/react-calculator</a>
 
