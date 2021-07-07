@@ -39,8 +39,8 @@
 }
 
 .button.operation {
-    background-color: var(--bg-button-operation-dark);
-    color: var(--button-color-text);
+    background-color: var(--bg-button-operation);
+    color: var(--button-color-text-dark);
 }
 
 .button.operation:active {
