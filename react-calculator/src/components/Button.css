@@ -1,0 +1,48 @@
+:root{
+    /*Light theme*/
+    --bg-button: #f0f0f0;
+    --bg-button-active: #cccc;
+    --button-color-text: black;
+    --border-button: solid 1px #888;
+    --bg-button-operation: #fa8231;
+    --bg-button-operation-active: #d3b6a2cc;
+
+    /*Dark theme*/
+    --bg-button-dark: #5f6062;
+    --bg-button-active-dark: #3f4143;
+    --button-color-text-dark: white;
+    --border-button-dark: solid 1px #2b2d2f;
+    --bg-button-operation-dark: #fd9e2b;
+}
+
+.button{
+    font-size: 1.7em;
+    background-color: var(--bg-button);
+    border: none;
+    border-right: var(--border-button);
+    border-bottom: var(--border-button);
+    outline: none;
+    color: var(--button-color-text);
+    transition: 100ms;
+}
+
+.button:active{
+    background-color: var(--bg-button-active);
+}
+
+.button.double{
+    grid-column: span 2;
+}
+
+.button.triple{
+    grid-column: span 3;
+}
+
+.button.operation {
+    background-color: var(--bg-button-operation-dark);
+    color: var(--button-color-text);
+}
+
+.button.operation:active {
+    background-color: var(--bg-button-operation-active);
+}
